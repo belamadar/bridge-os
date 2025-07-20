@@ -28,6 +28,7 @@ modules:
       - firefox
       - firefox-langpacks
       - plasma-discover
+      - plasma-discover-offline-updates
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
