@@ -27,8 +27,9 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - plasma-discover
+      - plasma-discover-flatpak
       - plasma-discover-offline-updates
+      - plasma-discover
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -41,9 +42,14 @@ modules:
         - org.gnome.Geary
         - org.gnome.Crosswords
         - org.gnome.Mahjongg
+        - io.gitlab.adhami3310.Converter
+        - net.nokyan.Resources
+        - de.schmidhuberj.tubefeeder
         - com.github.hugolabe.Wike
-        - com.github.tchx84.Flatseal
+        - org.learningequality.Kolibri
         - de.haeckerfelix.Shortwave
+        - com.github.tchx84.Flatseal
+        - io.github.flattool.Warehouse
         - page.codeberg.zynequ.Kapitano
       remove:
         - org.gnome.eog
