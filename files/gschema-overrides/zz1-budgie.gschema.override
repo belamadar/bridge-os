@@ -10,8 +10,8 @@ restore-session-policy='always'
 
 # Use visible scrollbars at all times
 [org.gnome.desktop.interface]
-gtk-theme='Adwaita'
-icon-theme='Adwaita'
+gtk-theme='adw-gtk3'
+icon-theme='Papirus'
 font-name='Inter 12'
 monospace-font-name='JetBrains Mono 12'
 cursor-theme='Adwaita'
