@@ -1,0 +1,31 @@
+# Enable adblock in Epiphany
+[org.gnome.Epiphany.web]
+enable-adblock=true
+enable-mouse-gestures=false
+sans-serif-font='Inter 12'
+monospace-font='JetBrains Mono 12'
+restore-session-policy='always'
+
+# Use visible scrollbars at all times
+[org.gnome.desktop.interface]
+gtk-theme='Adwaita'
+icon-theme='Adwaita'
+font-name='Inter 12'
+monospace-font-name='JetBrains Mono 12'
+cursor-theme='Adwaita'
+enable-animations=true
+toolbar-style='text-beside-icons'
+show-battery-percentage=true
+overlay-scrolling=false
+clock-format='24h'
+text-scaling-factor=1.25
+
+# Set a default background image (adjust path as needed)
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/F40-01-day-compressed.jpg'
+picture-options='zoom'
+
+# Don’t blank the screen too quickly
+[org.gnome.desktop.session]
+idle-delay=uint32 900
+
