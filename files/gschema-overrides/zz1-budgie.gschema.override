@@ -16,7 +16,6 @@ font-name='Inter 12'
 monospace-font-name='JetBrains Mono 12'
 cursor-theme='Adwaita'
 enable-animations=true
-toolbar-style='text-beside-icons'
 show-battery-percentage=true
 overlay-scrolling=false
 clock-format='24h'
