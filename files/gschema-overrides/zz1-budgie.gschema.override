@@ -4,6 +4,8 @@ enable-adblock=true
 enable-mouse-gestures=false
 sans-serif-font='Inter 12'
 monospace-font='JetBrains Mono 12'
+
+[org.gnome.Epiphany]
 restore-session-policy='always'
 
 # Use visible scrollbars at all times
