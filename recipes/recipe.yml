@@ -26,9 +26,8 @@ modules:
       - jetbrains-mono-fonts
       - adw-gtk3-theme
       - papirus-icon-theme
-      - gnome-console
-      - gnome-terminal
-      - nautilus
+      - nautilus  # File manager
+      - ptyxis    # Terminal emulator
     remove:
       - firefox
       - firefox-langpacks
@@ -67,3 +66,8 @@ modules:
       - zz1-budgie.gschema.override
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
+
+iso:
+  enabled: true
+  name: Bridge OS
+  label: BRIDGE_OS
