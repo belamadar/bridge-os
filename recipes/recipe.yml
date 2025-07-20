@@ -22,9 +22,12 @@ modules:
       - micro
       - starship
       - fish
+      - rsms-inter-fonts
+      - jetbrains-mono-fonts
     remove:
       - firefox
-      - firefox-langpacks 
+      - firefox-langpacks
+      - plasma-discover
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -43,6 +46,8 @@ modules:
         - page.codeberg.zynequ.Kapitano
       remove:
         - org.gnome.eog
+        - org.mozilla.Thunderbird
+        - org.mozilla.firefox
     user: {} # Also add Flathub user repo, but no user packages
 
   - type: gschema-overrides
